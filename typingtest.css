@@ -1,0 +1,56 @@
+/* Typing Test Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--bg, #f5f5f5);
+  color: var(--text, #222);
+  transition: all .3s ease;
+}
+#typing-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 14px;
+  background: var(--panel, #fff);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+#typing-text {
+  font-size: 18px;
+  line-height: 1.6;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  min-height: 120px;
+  user-select: none;
+  margin-bottom: 12px;
+}
+#typing-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.stats {
+  margin-top: 12px;
+  font-size: 16px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+#start-test {margin-top:12px; padding:10px 18px; border:none; border-radius:8px; background:#0077cc; color:#fff; cursor:pointer; transition:.3s;}
+#start-test:hover {background:#005fa3;}
+button {cursor:pointer;}
+.certificate {
+  max-width:700px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 4px solid #d4af37;
+  border-radius: 14px;
+  background:#fff;
+  text-align:center;
+}
+.certificate h2 {margin-bottom:15px; color:#0077cc;}
+.certificate p {font-size:16px; margin:6px 0;}
+.theme-toggle {position:fixed; top:12px; right:12px; padding:8px 12px; background:#0077cc; color:#fff; border:none; border-radius:6px; cursor:pointer;}
