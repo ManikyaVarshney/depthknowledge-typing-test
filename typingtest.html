@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Depth Knowledge Typing Test</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ManikyaVarshney/depthknowledge-typing-test/typingtest.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ManikyaVarshney/depthknowledge-typing-test/typingprofile.css">
+</head>
+<body>
+
+<button class="theme-toggle" onclick="document.body.classList.toggle('night')">Toggle Theme</button>
+
+<div id="typing-container">
+  <h2>Typing Test</h2>
+  <div>
+    <input id="nameInput" placeholder="Enter your name" style="padding:10px; width:100%; margin-bottom:8px;">
+  </div>
+  <select id="level-select" style="padding:8px; margin-bottom:8px;">
+    <option value="easy">Easy</option>
+    <option value="medium">Medium</option>
+    <option value="high">High</option>
+    <option value="pro">Pro</option>
+    <option value="master">Master</option>
+    <option value="grandmaster">Grandmaster</option>
+  </select>
+
+  <div id="typing-text">Your paragraph will appear here.</div>
+  <input id="typing-input" placeholder="Start typing here...">
+  <button id="start-test">Start Test</button>
+
+  <div class="stats" id="stats">Stats will appear here</div>
+</div>
+
+<div id="certificate-container"></div>
+
+<!-- DKProfiles ID input -->
+<div style="max-width:480px; margin:20px auto;">
+  <input id="dk_use_id" placeholder="Enter your ID like DKT-12345" style="padding:8px; width:70%;">
+  <button id="dk_apply_id" style="padding:8px;">Apply ID</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/gh/ManikyaVarshney/depthknowledge-typing-test/typingprofile.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ManikyaVarshney/depthknowledge-typing-test/typingtest.js"></script>
+
+</body>
+</html>
