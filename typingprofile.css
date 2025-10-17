@@ -1,0 +1,29 @@
+/* typingprofile.css - DepthKnowledge profile UI (light + subtle accents) */
+.dk-profile {
+  max-width:720px;
+  margin:8px auto;
+  font-family: Inter, system-ui, Arial, sans-serif;
+  color:#0b1220;
+}
+.dk-card {
+  background:#ffffff;
+  border-radius:12px;
+  padding:12px;
+  box-shadow:0 8px 28px rgba(2,6,23,0.06);
+  margin-bottom:12px;
+}
+.dk-h { font-size:18px; font-weight:700; margin-bottom:6px; }
+.dk-muted { color:#6b7280; font-size:13px; }
+.dk-row { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+.dk-input { padding:8px 10px; border-radius:8px; border:1px solid #e6e9ef; min-width:0; }
+.dk-btn { padding:8px 12px; border-radius:8px; border:0; cursor:pointer; font-weight:700; }
+.dk-btn.primary { background:#10b981; color:#fff; }
+.dk-btn.ghost { background:transparent; border:1px solid rgba(11,17,25,0.06); color:#0b1220; }
+.dk-small { font-size:13px; color:#475569; }
+.dk-list { margin-top:8px; max-height:220px; overflow:auto; border-radius:8px; border:1px dashed rgba(0,0,0,0.04); padding:8px; }
+.dk-item { display:flex; justify-content:space-between; align-items:center; padding:8px; border-radius:8px; }
+.dk-item + .dk-item { margin-top:6px; }
+.dk-badge { background:linear-gradient(90deg,#fde68a,#fef3c7); padding:6px 8px; border-radius:999px; font-weight:700; }
+.dk-id { font-family:monospace; background:#f1f5f9; padding:6px 8px; border-radius:6px; }
+.dk-actions { display:flex; gap:6px; }
+@media (max-width:640px){ .dk-row{flex-direction:column; align-items:stretch} }
